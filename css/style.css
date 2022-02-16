@@ -1,0 +1,125 @@
+@import url("(https://fonts.google.com/specimen/Red+Hat+Display)");
+*{
+
+    box-sizing: border-box;
+   
+    
+}
+
+body{
+margin: 0;
+background-color: hsl(224, 23%, 55%);
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    max-width: 360px;
+    width: 90%;
+    margin: 0 auto;
+   
+    background-color: hsl(224, 23%, 55%);
+    
+    
+}
+
+.sumary{
+    display: flex;
+    flex-direction: column;
+    font-family: "Red Hat Display",sans-serif;
+    background-color: white;
+}
+
+.imagem-principal{
+    width: 100%;
+}
+
+.container_texto{
+    text-align: center;
+    padding: 18px;
+}
+
+.texto_titulo{
+    color: hsl(223, 47%, 23%);
+    font-weight: 600;
+}
+
+.texto_descrição{
+    color: hsl(224, 23%, 55%);
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.container_texto-secundario{
+
+    width: 90%;
+    background-color: hsla(224, 23%, 55%, 0.082);
+    padding: 16px;
+    margin-left: 18px;
+    border-radius: 6px;
+    
+   
+}
+
+.container_imagem-icone{
+    float: left;
+    padding: 2px;
+
+}
+
+.texto_icone{
+    color:hsl(223, 47%, 23%);
+    margin: 6px 0 3px 70px;
+}
+
+.texto_icone-preco{
+    color: hsl(224, 23%, 55%);
+    margin-left: 70px;
+
+}
+
+.texto_icone-botao{
+    float: right;
+    margin: 16px;
+    border-bottom: 1px;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(0, 17, 255);
+    
+ 
+}
+
+.container_botao{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.botao_principal{
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow:  0px 6px 16px rgb(50, 50,50,0.77);
+   color: white;
+   background-color:  hsl(245, 75%, 52%);
+   font-size: 16px;
+   font-weight: 600;
+
+}
+
+.botao_secundario{
+    margin-top: 20px;
+    border: none;
+    color: hsl(225, 18%, 47%);
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+}
+
+
